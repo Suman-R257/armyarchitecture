@@ -70,8 +70,7 @@ export default function Consultation() {
           <CheckCircle className="w-24 h-24 text-green-500 mx-auto mb-8" />
           <h2 className="text-4xl font-serif mb-4">Thank You!</h2>
           <p className="text-xl text-gray-700">
-            Your consultation request has been received. 
-            Anika will contact you within 24 hours.
+            Your consultation request has been received. We will contact you within 24 hours.
           </p>
         </motion.div>
       </div>
@@ -121,7 +120,7 @@ export default function Consultation() {
                 <div className="mt-12 pt-8 border-t border-beige">
                   <p className="text-sm text-gray-500">📍 Indore, Madhya Pradesh</p>
                   <p className="text-primary font-medium mt-2">+91 98765 43210</p>
-                  <p className="text-primary font-medium">anika@inarche.in</p>
+                  <p className="text-primary font-medium">contact@homestruct.in</p>
                 </div>
               </div>
             </div>

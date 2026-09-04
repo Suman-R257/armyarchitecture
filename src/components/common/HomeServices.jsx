@@ -2,15 +2,15 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ServiceCard from './ServiceCard';
-import { Home, Building2, Hammer, Ruler, ChefHat, Trees } from 'lucide-react';
+import { Home, Building2, Hammer, Ruler, Layers } from 'lucide-react';
 
 const allServices = [
-  { icon: Home, title: "Interior Design", desc: "Complete residential interior design solutions" },
-  { icon: Building2, title: "Architecture Planning", desc: "Custom architectural designs and planning" },
-  { icon: Hammer, title: "Home Renovation", desc: "Full home renovation and remodeling" },
-  { icon: Ruler, title: "3D Visualization", desc: "Photorealistic 3D renders and walkthroughs" },
-  { icon: ChefHat, title: "Modular Kitchen", desc: "Modern and functional kitchen designs" },
-  { icon: Trees, title: "Landscape Design", desc: "Beautiful outdoor and garden spaces" },
+  { icon: Building2, title: "Structural Design & Calculations", desc: "Safe, code-compliant structural designs for homes." },
+  { icon: Home, title: "Architectural Layouts", desc: "Optimized layouts focusing on space and functionality." },
+  { icon: Hammer, title: "Construction Supervision", desc: "On-site supervision to ensure build quality and compliance." },
+  { icon: Ruler, title: "Renovation & Retrofitting", desc: "Upgrades and strengthening solutions for existing structures." },
+  { icon: Layers, title: "3D Modeling & Working Drawings", desc: "Clear drawings and 3D visuals for accurate execution." },
+  { icon: Hammer, title: "BOQ & Permit Support", desc: "Estimates and permit-ready documentation." },
 ];
 
 export default function HomeServices() {
@@ -33,7 +33,7 @@ export default function HomeServices() {
             Our Services Provided
           </h2>
           <p className="text-xl text-gray-600">
-            Crafting beautiful spaces with precision and passion
+            Practical residential engineering services to design and deliver your dream home.
           </p>
         </motion.div>
 

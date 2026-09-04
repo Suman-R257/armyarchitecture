@@ -10,12 +10,12 @@ export default function AboutSection() {
 
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8 mb-14">
           <h2 className="text-4xl md:text-6xl font-bold leading-tight max-w-4xl text-gray-900">
-            Building Modern Spaces <br />
-            With Smart Architecture
+            Residential Design <br />
+            Backed by Engineering Expertise
           </h2>
 
           <button className="border border-orange-500 text-orange-500 px-6 py-3 rounded-full hover:bg-orange-500 hover:text-white transition">
-            Get A Quotation →
+            Request A Quote →
           </button>
         </div>
 
@@ -28,13 +28,13 @@ export default function AboutSection() {
               <span className="text-7xl opacity-30">“</span>
 
               <p className="mt-6 text-lg leading-9 italic">
-                We design innovative and sustainable structures with modern
-                aesthetics, functionality, and engineering excellence for every project.
+                We deliver practical, safe and efficient home designs that
+                balance engineering rigor with the lifestyle needs of families.
               </p>
             </div>
 
             <h3 className="text-3xl font-bold mt-8">
-              Acuity Team
+              Structural & Design Studio
             </h3>
           </div>
 

@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
@@ -22,12 +23,30 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between py-4">
 
-          {/* Logo */}
+          {/* Logo / Brand Name */}
           <Link to="/" className="flex items-center">
-            <h2 className="text-3xl font-bold tracking-tight">
-              <span className="text-gray-900">Anika</span>
-              <span className="text-orange-500">Design</span>
-            </h2>
+            <div className="flex items-center gap-2">
+
+              {/* Logo Icon */}
+              <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-lg">
+                  C
+                </span>
+              </div>
+
+              {/* Brand Name */}
+              <div className="flex flex-col leading-none">
+                <h2 className="text-2xl font-bold tracking-tight">
+                  <span className="text-gray-900">CIV</span>
+                  <span className="text-orange-500">ORA</span>
+                </h2>
+
+                <span className="text-[10px] tracking-[0.2em] text-gray-500 uppercase mt-1">
+                  Civil & Construction
+                </span>
+              </div>
+
+            </div>
           </Link>
 
           {/* Desktop Menu */}
@@ -59,7 +78,8 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden p-2"
+            className="lg:hidden p-2 text-gray-800"
+            aria-label="Toggle menu"
           >
             {open ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -84,11 +104,14 @@ export default function Navbar() {
                 </Link>
               ))}
             </nav>
+
             <Link
               to="/consultation"
-              className="mt-4 block text-center bg-orange-500 text-white py-2.5 rounded-lg font-medium hover:bg-orange-600 transition"
+              onClick={() => setOpen(false)}
+              className="mt-4 flex items-center justify-center gap-2 bg-orange-500 text-white py-2.5 rounded-lg font-medium hover:bg-orange-600 transition"
             >
               Start Project
+              <ArrowRight size={16} />
             </Link>
           </div>
         )}

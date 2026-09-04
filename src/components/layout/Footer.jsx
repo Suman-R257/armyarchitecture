@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         <div>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-2xl">A</div>
-            <h2 className="text-2xl font-display">Anika Sharma</h2>
+            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-2xl">H</div>
+            <h2 className="text-2xl font-display">HomeStruct Studio</h2>
           </div>
           <p className="text-gray-400">
             Creating timeless homes that reflect your personality and lifestyle.
@@ -29,11 +29,11 @@ export default function Footer() {
         <div>
           <h4 className="font-medium mb-6 text-lg">Services</h4>
           <div className="space-y-3 text-gray-400">
-            <p>Interior Design</p>
-            <p>Architecture Planning</p>
-            <p>Home Renovation</p>
-            <p>3D Visualization</p>
-            <p>Modular Kitchen</p>
+            <p>Structural Design</p>
+            <p>Architectural Layouts</p>
+            <p>Construction Supervision</p>
+            <p>Renovation & Retrofitting</p>
+            <p>3D Modeling & Drawings</p>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
             <div className="flex gap-3">
               <Mail size={20} />
-              <a href="mailto:anika@inarche.in" className="hover:text-white">anika@inarche.in</a>
+              <a href="mailto:contact@homestruct.in" className="hover:text-white">contact@homestruct.in</a>
             </div>
             <div className="flex gap-3">
               <MapPin size={20} />
@@ -63,7 +63,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10 mt-16 pt-8 text-center text-sm text-gray-500">
-        © 2026 Anika Sharma. All Rights Reserved.
+        © 2026 HomeStruct Studio. All Rights Reserved.
       </div>
     </footer>
   );

@@ -29,12 +29,12 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             className="text-6xl md:text-7xl font-serif text-white mb-6"
           >
-            About Anika Sharma
+            About Me
           </motion.h1>
 
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Passionate Architect & Interior Designer creating homes that
-            reflect your soul
+            Civil engineer specializing in residential design, structural
+            calculations, and on-site construction supervision.
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function About() {
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&auto=format&fit=crop&q=80"
-                alt="Anika Sharma"
+                alt="Professional portrait"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -71,15 +71,15 @@ export default function About() {
               <h2 className="text-4xl font-serif mb-6">My Story</h2>
 
               <p className="text-lg leading-relaxed text-gray-700">
-                With over 7 years of experience in architecture and interior
-                design, I founded my studio with a simple belief — every home
-                should tell a story. A story of the people who live in it.
+                With several years of experience in civil engineering focused on
+                residential projects, I combine structural expertise with
+                practical design to deliver safe and efficient homes.
               </p>
 
               <p className="text-lg leading-relaxed text-gray-700 mt-6">
-                I help families transform empty spaces into warm, functional,
-                and luxurious homes that perfectly match their lifestyle and
-                personality.
+                I work closely with homeowners and contractors to create
+                designs that are buildable, cost-effective and suited to each
+                family's needs.
               </p>
             </div>
 
@@ -101,9 +101,7 @@ export default function About() {
                   <Award className="text-yellow-700" size={28} />
                   <div>
                     <p className="font-medium">Education</p>
-                    <p className="text-xl font-medium">
-                      B.Arch - SPA Delhi
-                    </p>
+                    <p className="text-xl font-medium">B.E. Civil Engineering</p>
                   </div>
                 </div>
               </div>
@@ -118,6 +116,7 @@ export default function About() {
           viewport={{ once: true }}
           className="mt-24 text-center max-w-4xl mx-auto"
         >
+
           <h2 className="text-4xl font-serif mb-8">Design Philosophy</h2>
 
           <div
@@ -131,13 +130,11 @@ export default function About() {
 
             <div className="relative z-10">
               <p className="text-2xl italic leading-relaxed text-gray-700">
-                "I don't just design houses. I design experiences. Spaces where
-                memories are made, families grow, and you feel truly at home."
+                "I design homes that stand strong through time, are efficient
+                to build, and comfortable to live in."
               </p>
 
-              <p className="mt-6 text-yellow-700 font-medium">
-                - Anika Sharma
-              </p>
+              <p className="mt-6 text-yellow-700 font-medium">- Civil Engineering Studio</p>
             </div>
           </div>
         </motion.div>
@@ -153,7 +150,7 @@ export default function About() {
             deliver spaces that truly feel like home.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: Palette,

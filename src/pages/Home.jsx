@@ -33,7 +33,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-sm uppercase tracking-[5px] text-white/80 mb-4"
           >
-            Architecture Studio
+            Civil Engineering & Residential Design
           </motion.p>
 
           <motion.h1
@@ -41,18 +41,18 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold text-white leading-tight mb-5"
           >
-            Designing Modern <br /> Living Spaces
+            Safe, Beautiful <br /> & Functional Homes
           </motion.h1>
 
           <p className="text-base md:text-lg text-white/85 mb-8">
-            Elegant designs crafted for beautiful living.
+            Residential planning, structural design, and on-site supervision.
           </p>
 
           <Link
             to="/projects"
             className="inline-flex items-center gap-2 px-7 py-3 bg-white text-black rounded-full font-medium hover:scale-105 transition"
           >
-            Explore <ArrowRight size={18} />
+            View Projects <ArrowRight size={18} />
           </Link>
         </div>
       </section>

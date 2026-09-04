@@ -5,7 +5,7 @@ export const testimonials = [
     city: "Indore",
     project: "4BHK Villa",
     rating: 5,
-    text: "Anika completely transformed our house. The attention to detail and understanding of our lifestyle is unmatched.",
+    text: "The team completely transformed our house. The attention to structural detail and buildability is unmatched.",
     image: "/images/testimonials/client1.jpg"
   },
   {
